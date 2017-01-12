@@ -1,0 +1,22 @@
+{
+  "name": "SalesforceDXDemo",
+  "description": "This is the app.json file created during review application creation",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "herokuconnect",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/salesforce-buildpack"
+    }
+  ]
+}
