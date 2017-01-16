@@ -1,3 +1,3 @@
-//Test Class 01132017 v 5.0
+//Test Class 01132017 v 6.0
 public class TestDevClass{
 }
